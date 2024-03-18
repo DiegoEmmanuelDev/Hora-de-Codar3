@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade1</title>
+</head>
+<body>
+        <script>
+            alert("Informe dois valores. ")
+
+            var primeiro = parseInt(prompt("Informe o primeiro: "))
+            var segundo = parseInt(prompt("Informe o segundo numero: "))
+
+            if(segundo <= 0){
+                segundo = parseInt(prompt("Infome um nome novo valor para o segundo numero: "))
+            }else{
+                var conta = primeiro / segundo
+                document.write("Dividindo o primeiro pelo segundo fica " + conta)
+            }
+
+        </script>
+</body>
+</html>
